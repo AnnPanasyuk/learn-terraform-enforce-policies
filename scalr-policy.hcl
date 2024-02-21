@@ -27,5 +27,5 @@ policy "some-policy3" {
 
 policy "some-policy4" {
   enabled = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "hard-mandatory"
 }
