@@ -7,7 +7,7 @@ policy "allowed-terraform-version" {
 
 policy "some-policy" {
   enabled = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "hard-mandatory"
 }
 
 policy "some-policy1" {
